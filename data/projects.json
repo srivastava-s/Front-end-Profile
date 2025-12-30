@@ -1,0 +1,46 @@
+[
+    {
+        "title": "YouTube Bookmarker Chrome Extension",
+        "description": "Extension UI for bookmarking and organizing YouTube videos with a responsive, minimal interface.",
+        "stack": [
+            "React",
+            "JavaScript",
+            "HTML/CSS"
+        ],
+        "link": "#",
+        "linkText": "View code"
+    },
+    {
+        "title": "DeepInspect AI Dashboard",
+        "description": "Threat-monitoring dashboard built with React and Power BI visualizations, focused on clarity and speed.",
+        "stack": [
+            "React",
+            "Power BI",
+            "Dashboard UX"
+        ],
+        "link": "#",
+        "linkText": "View code"
+    },
+    {
+        "title": "AI Meeting Summarizer",
+        "description": "Full-stack app where the frontend focuses on smooth file upload, status, and summary review flows.",
+        "stack": [
+            "React",
+            "Responsive UI",
+            "File upload UX"
+        ],
+        "link": "#",
+        "linkText": "View code"
+    },
+    {
+        "title": "Weather App",
+        "description": "Lightweight weather interface built with HTML, CSS, and vanilla JavaScript, optimized for quick lookups.",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "link": "#",
+        "linkText": "View code"
+    }
+]

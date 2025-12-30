@@ -1,0 +1,30 @@
+[
+    {
+        "role": "Frontend Developer Intern",
+        "company": "TechStart Solutions",
+        "period": "Jan 2024 — Present",
+        "details": [
+            "Built reusable React components for the company's internal dashboard system.",
+            "Optimized landing page performance, improving Lighthouse score by 15 points.",
+            "Collaborated with designers to implement pixel-perfect UI from Figma."
+        ]
+    },
+    {
+        "role": "Web Development Freelancer",
+        "company": "Self-Employed",
+        "period": "Jun 2023 — Dec 2023",
+        "details": [
+            "Developed responsive websites for 3 small business clients using React and Tailwind.",
+            "Managed deployment and hostility using Vercel and Netlify."
+        ]
+    },
+    {
+        "role": "Open Source Contributor",
+        "company": "GitHub",
+        "period": "Ongoing",
+        "details": [
+            "Contributed bug fixes to 2 popular React UI libraries.",
+            "Maintained documentation for a community-driven CSS framework."
+        ]
+    }
+]

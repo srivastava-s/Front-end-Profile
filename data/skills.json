@@ -1,0 +1,40 @@
+{
+    "highlights": [
+        "React & JavaScript (ES6+)",
+        "Performance‑minded UI",
+        "Dashboard & data viz UX",
+        "Chrome extension interfaces",
+        "Agile & team collaboration"
+    ],
+    "categories": [
+        {
+            "title": "Core",
+            "skills": [
+                "JavaScript (ES6+)",
+                "React.js",
+                "HTML5",
+                "CSS3",
+                "Git"
+            ]
+        },
+        {
+            "title": "State & APIs",
+            "skills": [
+                "Redux Toolkit",
+                "Context API",
+                "REST APIs",
+                "React Query"
+            ]
+        },
+        {
+            "title": "Tools & UI",
+            "skills": [
+                "Tailwind CSS",
+                "Figma",
+                "VS Code",
+                "Chrome DevTools",
+                "Vite"
+            ]
+        }
+    ]
+}
