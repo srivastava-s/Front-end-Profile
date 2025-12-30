@@ -8,16 +8,18 @@
   <meta name="description"
     content="Frontend-focused Software Engineer portfolio of Shashank Kumar Srivastava – React, JavaScript, UI engineering, and performance-focused web experiences." />
   <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
+  <canvas id="bg-canvas"></canvas>
   <header class="site-header">
     <div class="container header-inner">
       <div class="branding">
         <span class="logo-mark">SS</span>
         <div>
           <h1 class="site-title">Shashank Kumar Srivastava</h1>
-          <p class="site-role">Frontend Developer / UI Engineer</p>
+          <p class="site-role">Frontend Developer</p>
         </div>
       </div>
       <nav class="nav">
@@ -41,11 +43,11 @@
         <div class="hero-copy">
           <p class="eyebrow">Frontend Engineer · React · JavaScript</p>
           <h2>
-            I build fast, user‑centric web interfaces that turn complex ideas
-            into simple, usable products.
+            I build fast, user‑centric <br>web interfaces that turn <br>complex ideas
+            into simple, <br>usable products.
           </h2>
           <p class="hero-subtitle">
-            Focused on React, performance, and clean UI engineering — from
+            Focused on React, performance, and clean UI engineering<br> from
             dashboards and Chrome extensions to AI‑powered productivity tools.
           </p>
           <div class="hero-actions">
@@ -53,8 +55,30 @@
             <a href="#contact" class="btn ghost">Get in Touch</a>
           </div>
           <div class="hero-meta">
-            <span>Based in Ghaziabad, India</span>
+            <span>Based in Noida, India</span>
             <span>Open to Frontend / UI roles</span>
+          </div>
+
+          <div class="hero-about" id="about">
+            <h3>About</h3>
+            <p>
+              Frontend‑focused engineer with a strong foundation in data
+              structures, algorithms, and software design — applying that rigor
+              to build reliable, performant UIs.
+            </p>
+            <p>
+              I specialize in React and modern JavaScript, building responsive
+              interfaces that integrate cleanly with APIs and data‑heavy
+              backends. My work spans Chrome extensions, analytics dashboards,
+              and AI‑powered web apps.
+            </p>
+            <aside class="pill-list" aria-label="Highlights">
+              <span class="pill">React & JavaScript (ES6+)</span>
+              <span class="pill">Performance‑minded UI</span>
+              <span class="pill">Dashboard & data viz UX</span>
+              <span class="pill">Chrome extension interfaces</span>
+              <span class="pill">Agile & team collaboration</span>
+            </aside>
           </div>
         </div>
         <aside class="hero-card" aria-label="Quick profile">
@@ -82,41 +106,7 @@
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>About</h2>
-          <p>
-            Frontend‑focused engineer with a strong foundation in data
-            structures, algorithms, and software design — applying that rigor
-            to build reliable, performant UIs.
-          </p>
-        </header>
-        <div class="two-column">
-          <div>
-            <p>
-              I specialize in React and modern JavaScript, building responsive
-              interfaces that integrate cleanly with APIs and data‑heavy
-              backends. My work spans Chrome extensions, analytics dashboards,
-              and AI‑powered web apps, always with an emphasis on clarity,
-              usability, and performance.
-            </p>
-            <p>
-              Competitive programming and DSA practice shape how I think about
-              state, data flows, and edge cases on the frontend — helping me
-              ship UIs that feel smooth even under real‑world constraints.
-            </p>
-          </div>
-          <aside class="pill-list" aria-label="Highlights">
-            <span class="pill">React & JavaScript (ES6+)</span>
-            <span class="pill">Performance‑minded UI</span>
-            <span class="pill">Dashboard & data viz UX</span>
-            <span class="pill">Chrome extension interfaces</span>
-            <span class="pill">Agile & team collaboration</span>
-          </aside>
-        </div>
-      </div>
-    </section>
+
 
     <section id="experience" class="section">
       <div class="container">
@@ -207,7 +197,7 @@
     <section id="projects" class="section section-alt">
       <div class="container">
         <header class="section-header">
-          <h2>Frontend Projects</h2>
+          <h2>Projects</h2>
           <p>Code you can read and UIs you can click through.</p>
         </header>
         <div class="project-grid">
