@@ -10,9 +10,9 @@
   background: linear-gradient(90deg, var(--accent), var(--cyan), transparent);
 }
 
-.footer-inner {
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+.container.footer-inner {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

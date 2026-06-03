@@ -80,9 +80,9 @@ export default function Hero() {
           prefersReduced
             ? {}
             : {
-                scale: [1, 1.1, 1],
-                opacity: [0.15, 0.25, 0.15],
-              }
+              scale: [1, 1.1, 1],
+              opacity: [0.15, 0.25, 0.15],
+            }
         }
         transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
       />
@@ -92,9 +92,9 @@ export default function Hero() {
           prefersReduced
             ? {}
             : {
-                scale: [1.1, 1, 1.1],
-                opacity: [0.1, 0.2, 0.1],
-              }
+              scale: [1.1, 1, 1.1],
+              opacity: [0.1, 0.2, 0.1],
+            }
         }
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
       />
@@ -158,9 +158,9 @@ export default function Hero() {
                   prefersReduced
                     ? {}
                     : {
-                        scale: [1, 1.3, 1],
-                        opacity: [1, 0.5, 1],
-                      }
+                      scale: [1, 1.3, 1],
+                      opacity: [1, 0.5, 1],
+                    }
                 }
                 transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
               />
@@ -181,7 +181,7 @@ export default function Hero() {
             <h3>About</h3>
             <p>
               Frontend‑focused engineer with a strong foundation in data structures, algorithms,
-              and software design — applying that rigor to build reliable, performant UIs.
+              and software design, applying that rigor to build reliable, performant UIs.
             </p>
             <p>
               I specialize in React and modern JavaScript, building responsive interfaces that

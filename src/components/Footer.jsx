@@ -33,21 +33,7 @@ export default function Footer() {
           © {new Date().getFullYear()} Shashank Kumar Srivastava
         </motion.p>
 
-        <div className="footer-links">
-          {socials.map((s) => (
-            <motion.a
-              key={s.label}
-              href={s.href}
-              target="_blank"
-              rel="noreferrer"
-              className="footer-social"
-              whileHover={{ y: -3, color: '#a78bfa' }}
-              whileTap={{ scale: 0.9 }}
-            >
-              {s.label}
-            </motion.a>
-          ))}
-        </div>
+
 
         <motion.a
           href="#top"
