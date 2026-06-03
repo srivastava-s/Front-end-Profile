@@ -1,0 +1,94 @@
+/* ─── Projects Section ─── */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  position: relative;
+  padding: 1.5rem;
+  overflow: hidden;
+  transition: border-color 0.25s ease;
+}
+
+.project-card:hover {
+  border-color: var(--border-accent);
+}
+
+.card-shimmer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .card-shimmer {
+  opacity: 1;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.project-link {
+  font-size: 0.8rem;
+  color: var(--accent);
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.project-link:hover {
+  color: #c4b5fd;
+}
+
+.project-card p {
+  margin: 0 0 0.85rem;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.76rem;
+}
+
+.project-meta li {
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-pill);
+  background: var(--glass-bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+}
+
+.project-meta li:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+@media (max-width: 880px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

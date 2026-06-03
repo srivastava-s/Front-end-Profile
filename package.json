@@ -1,0 +1,32 @@
+{
+  "name": "front-end-profile",
+  "version": "1.0.0",
+  "description": "Static portfolio site focused on frontend and UI engineering work: React projects, Chrome extension interfaces, dashboards, and AI‑powered productivity tools.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srivastava-s/Front-end-Profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/srivastava-s/Front-end-Profile/issues"
+  },
+  "homepage": "https://github.com/srivastava-s/Front-end-Profile#readme",
+  "dependencies": {
+    "framer-motion": "^12.40.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.16"
+  }
+}

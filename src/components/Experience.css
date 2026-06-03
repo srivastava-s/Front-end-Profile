@@ -1,0 +1,116 @@
+/* ─── Experience Timeline ─── */
+
+.section-underline {
+  display: block;
+  height: 2px;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, var(--accent), var(--cyan));
+  transform-origin: left;
+  border-radius: 2px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), var(--cyan), transparent);
+  transform-origin: top;
+  border-radius: 2px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.5rem;
+  top: 1.5rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--bg);
+  box-shadow: 0 0 0 2px var(--accent), 0 0 16px rgba(167, 139, 250, 0.3);
+  z-index: 2;
+}
+
+/* ─── Experience Card ─── */
+.experience-card {
+  padding: 1.5rem;
+  transition: border-color 0.25s ease;
+}
+
+.card-header-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.experience-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.featured-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(135deg, var(--accent-dim), rgba(34, 211, 238, 0.1));
+  border: 1px solid var(--accent-border);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.experience-card .tagline {
+  margin: 0 0 0.85rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.experience-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.experience-card li + li {
+  margin-top: 0.4rem;
+}
+
+.experience-card li::marker {
+  color: var(--accent);
+}
+
+@media (max-width: 880px) {
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-dot {
+    left: -2rem;
+    width: 12px;
+    height: 12px;
+  }
+}
